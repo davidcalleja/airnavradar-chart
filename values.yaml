@@ -7,7 +7,7 @@ hostNetwork: false
 image:
   pullPolicy: IfNotPresent
   repository: ghcr.io/sdr-enthusiasts/docker-airnavradar
-  tag: latest
+  tag: latest-build-899
 replicaCount: 1
 sharingKeySecretName: airnavradar-sharing-key
 coordinatesSecretName: coordinates

@@ -1,6 +1,6 @@
 name: airnavradar
-version: 0.1.0
+version: 0.1.1
 description: Helm chart for ghcr.io/sdr-enthusiasts/docker-airnavradar (rbfeeder)
 apiVersion: v2
-appVersion: latest
+appVersion: latest-build-899
 type: application
