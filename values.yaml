@@ -1,0 +1,14 @@
+configMapName: airnavradar-env
+env:
+  BEASTHOST: readsb
+  BEASTPORT: "30005"
+  SHARING_KEY: ""
+hostNetwork: false
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/sdr-enthusiasts/docker-airnavradar
+  tag: latest
+replicaCount: 1
+sharingKeySecretName: airnavradar-sharing-key
+coordinatesSecretName: coordinates
+timezoneSecretName: timezone
